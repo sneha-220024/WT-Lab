@@ -1,0 +1,62 @@
+.bg-img {
+    background-image: url("https://watermark.lovepik.com/photo/20211126/large/lovepik-car-parking-picture_501141606.jpg");
+    height: 50vh;
+    background-size: cover;
+
+}
+
+.para {
+    padding-left: 20px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+ul li a:hover {
+    background-color: navy blue;
+
+}
+
+ul li a {
+    color: black;
+}
+
+.lk {
+    color: purple;
+    font-size: 15px;
+    font-family: Roboto;
+}
+
+.list {
+    display: flex;
+    text-overflow: hidden;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+li a:active {
+    background-color: yellow;
+}
+
+.but {
+    color: black;
+    background-color: lightblue;
+    border-width: 0.5px;
+    border-radius: 5px;
+    height: 37px;
+    margin-left: 190px;
+}
+
+.parking {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+    font-size: 29px;
+    padding-top: 10px;
+}
+
+.back {
+    background-color: grey;
+    height: 100vh;
+    width: 100vw;
+}
