@@ -43,6 +43,7 @@ li a:active {
     border-width: 0.5px;
     border-radius: 5px;
     height: 37px;
+    WIDTH:90PX;
     margin-left: 590px;
     margin-bottom:10px;
 }
@@ -62,23 +63,43 @@ li a:active {
     background-size:cover
 }
 .audio{
-    height:30px;
+    height:70px;
     margin-bottom:100px;
-    width:180px;
+    width:220px;
     margin-left:90px;
 
 }
 .video{
-    height:150px;
+     width:280px;
+    height:250px;
      margin-left:90px;
       margin-bottom:60px;
 }
 .iframe{
-    height:150px;
-    width:180px;
+    height:235px;
+    width:280px;
     margin-left:90px;
      margin-bottom:60px;
 }
 .space{
     justify-content:space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+.space audio{
+    margin-top:50px;
+}
+.table{
+    margin-left:90px;
+    margin-bottom:60px;
+    background-color:#f2f2f2;
+    background:linear-gradient(135deg,#667eea,#764ba2);
+    color:white;
+    font-size:18px;
+    text-transform:uppercase;
+}
+.for{
+    margin-left:50%;
+    margin-bottom:160px;
+   
 }

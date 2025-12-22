@@ -1,5 +1,17 @@
 <head>
     <link rel="stylesheet" href="index.css">
+    <style>
+        .table{
+            margin-left:90px;
+            margin-bottom:60px;
+            background-color:#f2f2f2;
+            background:linear-gradient(135deg,#667eea,#764ba2);
+            color:white;
+            font-size:18px;
+            text-transform:uppercase;
+            text-align:center;
+        }
+    </style>
 </head>
 <body>
     <div class="back">
@@ -8,7 +20,7 @@
         </div>
         <p class="para"><u>Endtime</u>:</p>
         <ul class="list">
-            <li><a href="#">Today</a></li>
+            <li><a href="#if">Today</a></li>
             <li><a href="#">Tomorrow</a></li>
             <li><a href="#">Later</a></li>
         </ul>
@@ -18,14 +30,43 @@
             <li type="circle">₹20/- per one hour</li>
         </ul>
         <div class="space">
-            <audio controls class="audio" >
-                <source src="C:\Users\Sneha\Downloads\02 - Nijanga Nenena  - SenSongsMp3.co.mp3">
-            </audio>
-            <video controls class="video">
+            <video controls class="video" height="500px" width="300px">
                 <source src="C:\Users\Sneha\Downloads\WhatsApp Video 2025-12-18 at 11.43.27_f99f5ef4.mp4">
             </video>
-            <iframe src="C:\Users\Sneha\Downloads\sportsportal.pdf" class="iframe"></iframe>
+            <audio controls class="audio" height="150px" width="400px" >
+                <source src="C:\Users\Sneha\Downloads\02 - Nijanga Nenena  - SenSongsMp3.co.mp3">
+            </audio>
+            <iframe src="C:\Users\Sneha\Downloads\The_Smart_Parking_Management_System.pdf" class="iframe" id="if" width="300px"></iframe>
         </div>
-        <button class="but ">Click to Start</button>
+        <button class="but" onclick="window.location.href='forms.html'" >Click to Start</button>
+        <table class="table" border="2px" cellpadding="10px" cellspacing="0px">
+            <tr>
+                <th>Vehicle No</th>
+                <th>Start Time</th>
+                <th>End Time</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Ap371234</td>
+                <td>10:00 AM</td>
+                <td>12:00 PM</td>
+                <td>₹40/-</td>
+            </tr>
+            <tr>
+                <td>Ap3985678</td>
+                <td>11:30 AM</td>
+                <td>01:30 PM</td>
+                <td>₹40/-</td>
+            </tr>
+            <tr>
+                <td>Ap989012</td>
+                <td>12:15 PM</td>
+                <td>02:15 PM</td>
+                <td>₹40/-</td>
+            </tr>
+
+        </table>
+
+
 </div>
 </body>    
