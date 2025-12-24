@@ -1,14 +1,98 @@
+<html>
+  <head>
+    <style>
+    
+      .for{
+          background-color:#1ba9eb;
+          height:100vh;
+          width:100vw;
+          background-size:cover;
+      }
+      h1{
+          text-align:center;
+          padding-top:10px;
+          font-size:30px;
+          
+      }
+      .f{
+        background-color: rgb(4, 243, 163);
+        height:50px;
+        width:100%;
+      }
+      .g{
+        background-color: rgb(4, 243, 163);
+        height:40px;
+        font-size:20px;
+        padding-left:10px;
+        padding-top:10px;
+        border-radius:5px;
+        margin-left:20px;
+        margin-right:20px;
+      }
+      .name{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+      }
+      input{
+        width:300px;
+        height: 30px;
+      }
+      .n{
+        padding-left:180px;
+        font-size:20px;
+        font-weight:bold;
+      }
+      .na{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        font-size:18px;
+      }
+      .ph{
+         display:flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+      }
+    </style>
+  </head>
 <body>  
+  <form>
     <div class="for">
-    <h2>SMART PARKING FORM</h2>
-    <form target="_blank">
-        <label for="vno">Vehicle No:</label><br>
-        <input type="text" id="vno" name="vno"><br>
-        <label for="stime">Start Time:</label><br>
-        <input type="time" id="stime" name="stime"><br>
-        <label for="etime">End Time:</label><br>
-        <input type="time" id="etime" name="etime"><br><br>
-        <input type="submit" value="Submit">
-      </form>
-</div>
+      <div class="f">
+        <h1>Car Parking Form</h1>
+      </div>
+      <p class="g">
+        vehicle owner information
+      </p>
+        
+        
+        <label class="n" for="Name">Name:</label><br>
+        <div class="name">
+          <input type="text">
+          <input type="text">
+        </div>
+        <div class="na">
+          <p>First Name</p>
+          <p>Last Name</p>
+        </div>
+        <div class="ph">
+          <label class="n" for="Name">Phone Number:</label><br>
+           <label class="n" for="Name">Email:</label><br>
+        </div>
+        <div class="name">
+
+          <input type="text">
+          <input type="text">
+        </div>
+        <div class="na">
+          <p>Please enter a valid phone number</p>
+          <p>example@example.com</p>
+        </div>
+    </div>
+  </form>
+
+  
 </body>
+   
+</html>

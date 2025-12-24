@@ -1,8 +1,10 @@
 .bg-img {
-    background-image: url("https://watermark.lovepik.com/photo/20211126/large/lovepik-car-parking-picture_501141606.jpg");
-    height: 50vh;
+    background-image:url("https://images.unsplash.com/photo-1621929747188-0b4dc28498d2?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGFya2luZ3xlbnwwfHwwfHx8MA%3D%3D");
+    height:50%;
     background-size: cover;
-
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment: fixed;
 }
 
 .para {
@@ -44,12 +46,17 @@ li a:active {
     border-radius: 5px;
     height: 37px;
     WIDTH:90PX;
-    margin-left: 590px;
-    margin-bottom:10px;
+    margin-left: 250px;
+    margin-top: 0px;
+    margin-bottom:160px;
 }
-
+.b{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 .parking {
-    color: black;
+    color:#ffffff;
     text-align: center;
     font-weight: bold;
     font-size: 10px;
@@ -89,17 +96,4 @@ li a:active {
 .space audio{
     margin-top:50px;
 }
-.table{
-    margin-left:90px;
-    margin-bottom:60px;
-    background-color:#f2f2f2;
-    background:linear-gradient(135deg,#667eea,#764ba2);
-    color:white;
-    font-size:18px;
-    text-transform:uppercase;
-}
-.for{
-    margin-left:50%;
-    margin-bottom:160px;
-   
-}
+
