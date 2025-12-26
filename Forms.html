@@ -33,26 +33,42 @@
         display:flex;
         flex-wrap:wrap;
         justify-content: space-around;
+        margin-bottom:20px ;
       }
       input{
         width:300px;
         height: 30px;
+        margin-bottom:0%;
       }
       .n{
         padding-left:180px;
         font-size:20px;
         font-weight:bold;
       }
+      .nn{
+        padding-left:50px;
+        font-size:20px;
+        font-weight:bold;
+
+      }
+    
+      .jk{
+        padding-top: -5px;
+      }
       .na{
         display:flex;
         flex-wrap:wrap;
         justify-content: space-around;
         font-size:18px;
+        margin-top:0%;
       }
       .ph{
          display:flex;
         flex-wrap:wrap;
         justify-content: space-around;
+         font-weight:bold;
+          padding-left:0px;
+        font-size:20px;
       }
     </style>
   </head>
@@ -77,8 +93,8 @@
           <p>Last Name</p>
         </div>
         <div class="ph">
-          <label class="n" for="Name">Phone Number:</label><br>
-           <label class="n" for="Name">Email:</label><br>
+          <label for="Name">Phone Number:</label><br>
+           <label for="Name">Email:</label><br>
         </div>
         <div class="name">
 
@@ -89,6 +105,43 @@
           <p>Please enter a valid phone number</p>
           <p>example@example.com</p>
         </div>
+        <p class="g">
+        vehicle  information
+      </p>
+      <div class="ph">
+        <label class="mk" for="vehicle">Vehicle type</label><br>
+        <label class="mk" for="Name">Car licence:</label><br>
+      </div>
+      <div class="name">
+          <!DOCTYPE html>
+<html>
+<head>
+    <title>Dropdown List</title>
+</head>
+<body>
+
+    <label for="course">Choose the vahicle type:</label>
+
+    <select id="veh" name="vehicle">
+        <option value="">-- Select --</option>
+        <option value="2">2 wheeler</option>
+        <option value="4">4 wheeler</option>
+        <option value="3">3 wheeler</option>
+
+    </select>
+
+</body>
+</html>
+          <input type="text">
+      </div>
+      <div class="ph">
+        <label class="mk" for="Name">Model:</label><br>
+        <label class="mk" for="Name"> Color:</label><br>
+      </div>
+      <div class="name">
+      <input type="text">
+          <input type="text">
+          </div>
     </div>
   </form>
 
