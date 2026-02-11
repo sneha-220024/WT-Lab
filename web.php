@@ -5,13 +5,14 @@
 </head>
 <body>
 
-<h2>Upload File</h2>
+<h2>upload File</h2>
 
 <form action="upload.php" method="post" enctype="multipart/form-data">
     Select file:
     <input type="file" name="myfile" required>
     <button type="submit" name="upload">Upload</button>
 </form>
+</body>
 
 </body>
 </html>
