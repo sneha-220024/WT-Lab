@@ -116,7 +116,7 @@ Example:
 git log --graph
 screenshot
 <img width="1366" height="768" alt="Screenshot (33)" src="https://github.com/user-attachments/assets/79f2e6d8-a3cb-43be-aaf1-3f9751815643" />
- ## 11.git show
+ ## 12.git show
 syntax:
 git show commitID
 Purpose:
